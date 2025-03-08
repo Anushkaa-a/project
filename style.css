@@ -96,10 +96,10 @@ body{
     flex-direction: column;
 }
 
-.sign , .log i{
+.sign i, .log i{
     color: #fff;
     font-size: 20px;
-    margin-left: 0px;
+    padding-left: 20px;
 }
 
 .slider {
@@ -379,7 +379,7 @@ input[type="radio"] {
 }
 
 
-@media  screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .navbar{
     height: 60px;
     padding-left: 10px; 
@@ -398,7 +398,7 @@ input[type="radio"] {
         right:  180px;
         padding: 10px;
         padding-top: 12.5px;
-        padding-right: 80px;
+        padding-right: 70px;
         border: transparent;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -416,7 +416,7 @@ input[type="radio"] {
     .sign{
         position: absolute;
         left: 320px;
-        top: 5px;
+        top: 10px;
         display: flex;
         flex-direction: column;}
     .log{
@@ -425,9 +425,9 @@ input[type="radio"] {
         top: 10px;
         }
 
-    .sign , .log i{
-        font-family: 5px;
-        padding-left: 10px;}
+    .sign i , .log i{
+        font-size: 15px;
+        padding-left: 15px;}
         
     .slider {
         width: 100vw;
@@ -439,7 +439,7 @@ input[type="radio"] {
         box-shadow: -1px -1px 78px 27px rgba(185, 187, 187, 0.24);}
 
      .slides img {
-     width: 375px;
+     width: 100vw;
      height: 300px;
      object-fit: cover;
      display: block;}
@@ -468,6 +468,7 @@ input[type="radio"] {
         justify-content: center;
         align-items: center;
         gap: 10px;
+        font-size: 16px;
         padding: 10px;
         border-radius: 10px;
     }
@@ -483,5 +484,7 @@ input[type="radio"] {
     .cate4{top: 560px; left: 120px;}
     .cate5{top: 820px; left: -50px;}
     .cate6{top: 820px; left: 120px;}
+
+    .btn{position: relative; left: -580px;}
 
 }
